@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pay Money</title>
+  <style>
+    body {
+  background-color: #f70707;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(250, 152, 4);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2
+{
+  color: #333;
+}
+
+.online-payment, .offline-payment {
+  margin-bottom: 20px;
+}
+
+.online-payment {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer 
+  {
+    background: #333;
+    color: #d02525;
+    padding: 15px;
+    text-align: center;
+  }
+
+footer p {
+  margin: 5px 0;
+}
+button
+  {
+    background-color: #af654c; 
+    border: 100px; 
+    border-color: #1e06f2;
+    border-width: 100px;
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+  }
+ #h1
+ {
+    text-align: center;
+    border: 3px solid black;
+ } 
+
+  </style>
+  <script>
+        function openWebsite() 
+    {
+        window.open("file:///C:/Users/dell/Desktop/gathiya%20store/payment%20option.html", "_blank");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Payment Options</h1>
+  </header>
+
+  <div class="container">
+    <div class="online-payment">
+      <h2>Online Payment</h2>
+      <p>Click the button below to proceed with online payment:</p>
+      <form>
+        <button onclick="openWebsite()">pay</button>
+      </form>
+    </div>
+
+    <div class="offline-payment">
+      <h2>Offline Payment</h2>
+      <p>Contact us to arrange an offline payment:</p>
+      <p>Phone: 9512029612</p>
+      <p>Email: mihir123trivedi@gmail.com</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 live gathiya store . All rights reserved.</p>
+  </footer>
+</body>
+</html>
